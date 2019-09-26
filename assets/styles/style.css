@@ -11,11 +11,7 @@ html {
     margin-left: 15px;
 }
 
-/* * {
-    margin: 0;
-} */
-
-h1,h2,h3,h4,h5,h6,.Navigation{ 
+h1,h2,h3,h4,h5,h6,.navigation{ 
     font-family: Amatic SC;  
 }
 h1,h2,h3,h4,h5,h6{
@@ -23,22 +19,33 @@ h1,h2,h3,h4,h5,h6{
 } 
 
 .logo {
-    font-size: 3.5em;
+    font-size: 4em;
     margin-bottom: 20px;
 }
 
-/* .logo-rotated {
-    transform: rotate(25deg);
-    transform-origin: left center;
-} */
+.navigation li, footer {
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: black;
+    padding: 0 0.25em 0; 
+}
+.navigation li{
+    display: inline-block;
+    margin-right: -0.15em;
+}
 
-.Navigation{
-    font-size: 2.25em;     
+.navigation ul {
+    padding: 0em;
+    line-height: 1.5em;
+    text-align: center; /**/
+    padding: 0 0.5em 0;
+    font-size: 2.25em;
 }
 
 .textTitel{
     font-size: 2em; 
     font-weight: 400; 
+    text-align: center;
 }
 
 .text{
@@ -47,17 +54,29 @@ h1,h2,h3,h4,h5,h6{
 
 .ut{
     font-size: 2em; 
+    margin-left: 1em;
+}
+
+.infoZuUt{
+    font-size: 1.25rem;
+}
+
+.column {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin-right: -0.25em;
 }
 
 footer{
     font-size: 1.75em;
-}
-.infoZuUt{
-    font-size: 1.25rem;
 }
 
 a{
     color:black;
     text-decoration: none;
 }
-
+/* .logo-rotated {
+    transform: rotate(25deg);
+    transform-origin: left center;
+} */
