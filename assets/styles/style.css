@@ -15,9 +15,12 @@ html {
     margin: 0;
 } */
 
-h1,h2,h3,h4,h5,h6,.Navigation{
-    font-family: Amatic SC  
+h1,h2,h3,h4,h5,h6,.Navigation{ 
+    font-family: Amatic SC;  
 }
+h1,h2,h3,h4,h5,h6{
+    line-height: 0.25;
+} 
 
 .logo {
     font-size: 3.5em;
@@ -45,15 +48,16 @@ h1,h2,h3,h4,h5,h6,.Navigation{
 .ut{
     font-size: 2em; 
 }
+
+footer{
+    font-size: 1.75em;
+}
 .infoZuUt{
     font-size: 1.25rem;
 }
 
-footer{
-    font-family: Amatic SC;
-    font-size: 1.9em;
-}
 a{
     color:black;
     text-decoration: none;
 }
+
