@@ -10,6 +10,37 @@
     <meta name="description" content="Beschreibung der Seite" />
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Roboto:300,400,500&display=swap" rel="stylesheet"> 
     <link href="./assets/styles/style.css" rel="stylesheet">
+    <style>
+       html {
+            box-sizing: border-box;
+        }
+        * {
+            box-sizing: inherit;
+        }
+
+        .symbolH{
+            /* display: inline-block; */
+            text-align: center;
+        }
+        
+        header{
+            /* display: inline-block; */
+            position: relative;
+            background-position: center ;
+            background-size: cover;
+        }
+        body > header::after{
+            position: absolute;
+            top: -50px;
+            left: 0;
+            content: '';
+            display: inline-block;
+            width: 100%;
+            height: 130%;
+            opacity: 0.25;
+            background-image: url("./assets/images/simon-stankowski-jVVgYBLKZ5s-unsplash.jpg.part");
+        }
+    </style>
 </head>
 
 <body>
@@ -24,8 +55,8 @@
         <nav class="navigation">
             <ul>
                 <li>
-                    <a href="/index.html" title="Startseite">
-                        <img src="./assets/images/icons/home.png" alt="Symbol eines Hauses"/>
+                    <a href="/index.html" title="Stareite">
+                        <img class="symbolH" src="./assets/images/icons/house-chimney-2.svg" width="24" height="24" alt="Symbol eines Hauses"/>
                     </a>
                 </li>
                 <li> <a href="./zero-w-info.html"> zero waste </a> </li>
@@ -37,6 +68,7 @@
                 <li> <a href="./quellen.html">Quellen</a> </li>
             </ul>
         </nav>
+        <img class="symbolH" src="./assets/images/icons/share.svg" width="24" height="24" alt="Symbol"/>
     </header>
 
     <main>
@@ -132,5 +164,26 @@
     </details>
     --> 
 </body>
+<!--  .navigation {
+            
+            background-position: center right;
+            background-size: cover;
+        }
+
+        h2 {
+            position: relative;
+        }
+
+        h2::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: '';
+            display: inline-block;
+            width: 100%;
+            height: 300%;
+            opacity: 0.5;
+            background-image: url("./assets/images/email-pattern.png");
+        } -->
 
 </html>
