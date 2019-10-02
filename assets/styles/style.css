@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    margin-top: 10px;
+    margin-top: 0px;
     margin-right: 20px;
     margin-bottom: 10px;
     margin-left: 20px;
@@ -26,13 +26,7 @@ header{
     background-size: cover;
 }
 
-/* @media (min-width: 800px) {
-    .text {
-        width: 700px;
-        margin-left: auto;
-        margin-right: auto;
-    }  
-}
+/*
 @media (min-width: 900px ){
     .navigation li{
         font-size: 130%;
@@ -49,18 +43,25 @@ header{
         }
         
 } */
- 
+
+body > header {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
 body > header::after{
     position: absolute;
-    top: -60px;
+    top: 0;
     left: 0;
     content: '';
     display: inline-block;
     width: 100%;
-    height: 130%;
+    height: 100%;
     opacity: 0.25;
     z-index: -1;
-    background-image: url("../images/simon-stankowski-web.jpeg");
+    background-size: cover; /* 100% 100%auto100% auto ,cover */
+    background-repeat: no-repeat;
+    background-image: url("../images/simon-stankowski-web_klein.jpg");
 }
 
 h1,h2,h3,h4,h5,h6,.navigation{ 
@@ -79,10 +80,24 @@ h2{
 
 .logo {
     font-size: 4em;
-    margin-top: 0.25em;
+    margin-top: 0;
     margin-bottom: 20px;  /*?*/
     margin-left: 0em;
 }
+.logo a {
+    position: relative;
+    text-decoration: none;
+}
+.logo a::after{
+    content: ' ';
+    position: absolute;
+    /* position-top: -1em; */
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0; 
+    background-color:#b8c26f;
+ }
 
 .navigation li, footer {
     border-style: solid;
@@ -105,12 +120,34 @@ h2{
     /* font-weight: 600; */
     margin-bottom: 0.25em;
 } 
-/* share */
- .symbolS{  
-    display:block;
-    margin-left: auto;
-    margin-right: 1.5em;
+
+.S {
+    text-align: right;
 }
+
+.SButtonUl {  /* ul */
+    line-height: 1.5em;
+    text-align: right; 
+    padding: 0 0.25em 0;
+    font-size: 2em;
+    margin-bottom: 0.25em;
+    
+}
+ .SButtonUl li{
+    display: inline-block;
+    /* margin-right: auto; */
+} 
+div > button{
+    border: none;
+}
+button{
+    background: none;
+    text-decoration: none; 
+}  
+.symbolS{  /* share */
+    text-align: right;
+    /* margin-right: 1.5em; */
+}  
 
 .textTitel{
     font-size: 3em; 
@@ -125,10 +162,31 @@ h2{
     margin-top: 0.5em;
 }
 
-.ut{
+article{
     font-size: 2.5em; 
     margin-left: 0.25em;
     /* text-decoration-width: 0.5em; */
+}    
+article a{
+    text-decoration: none;
+}
+
+@media(min-width: 1000px){
+    .logo{
+       width: 200px;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .text{
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    article{
+        width:650px;
+        margin-left: auto;
+        margin-right: auto; 
+    }
 }
 
 .infoZuUt{
@@ -147,45 +205,36 @@ footer{
     display: inline-block;
     vertical-align: top;
     /* width: 50%; */
-    /* margin-right: -0.25em; */
     font-size: 1em;
 }
+
+@media (min-width: 700px ){
+.column{
+    width: 50%;
+    padding-left: 1em;
+}
+}
+
 .infoZuInfo, .Email{
     font-size: 1.25em;
     margin-top: 0.25em;
     margin-bottom: 0.5em;
 }
+@media(min-width: 1000px){
+    .infoZuInfo{
+        width: 400px;
+       /* margin-left: auto; */
+        margin-right: auto;
+    }
+}
 
 a{
-    /* position: relative; */
     color:black;
      text-decoration: underline;
      text-decoration-color: #b8c26f;
 }
-.logo a {
-    position: relative;
-    text-decoration: none;
-}
-.logo a::after{
-    content: ' ';
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 2px;
-    /* left: 0;*/
-    bottom: 0; 
-    background-color: darkolivegreen;
- }
 
-/* .logo a::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: green;
-} */
+ 
 
 a:hover{
     color:darkolivegreen; 
