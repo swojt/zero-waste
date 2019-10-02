@@ -26,24 +26,6 @@ header{
     background-size: cover;
 }
 
-/*
-@media (min-width: 900px ){
-    .navigation li{
-        font-size: 130%;
-    } 
-        .column{
-        font-size: 1.5em;
-        }
-        .text{
-            font-size: 170%;
-        }
-
-        article > h2 {
-        font-size: 160%;
-        }
-        
-} */
-
 body > header {
     padding-top: 1em;
     padding-bottom: 1em;
@@ -59,7 +41,7 @@ body > header::after{
     height: 100%;
     opacity: 0.25;
     z-index: -1;
-    background-size: cover; /* 100% 100%auto100% auto ,cover */
+    background-size: cover; /* 100%, auto, cover, contain */
     background-repeat: no-repeat;
     background-image: url("../images/simon-stankowski-web_klein.jpg");
 }
@@ -91,7 +73,6 @@ h2{
 .logo a::after{
     content: ' ';
     position: absolute;
-    /* position-top: -1em; */
     display: block;
     width: 100%;
     height: 2px;
@@ -112,7 +93,7 @@ h2{
 }
 
 .navigation ul {
-    /* padding: 0em; */
+    padding: 0em; 
     line-height: 1.5em;
     text-align: center; /**/
     padding: 0 0.25em 0;
@@ -121,7 +102,7 @@ h2{
     margin-bottom: 0.25em;
 } 
 
-.S {
+.S { /* div */
     text-align: right;
 }
 
@@ -146,7 +127,7 @@ button{
 }  
 .symbolS{  /* share */
     text-align: right;
-    /* margin-right: 1.5em; */
+    margin-right: 1.5em; 
 }  
 
 .textTitel{
@@ -165,7 +146,7 @@ button{
 article{
     font-size: 2.5em; 
     margin-left: 0.25em;
-    /* text-decoration-width: 0.5em; */
+     /* text-decoration-width: 0.5em;  */
 }    
 article a{
     text-decoration: none;
@@ -204,7 +185,6 @@ footer{
 .column {
     display: inline-block;
     vertical-align: top;
-    /* width: 50%; */
     font-size: 1em;
 }
 
@@ -223,7 +203,6 @@ footer{
 @media(min-width: 1000px){
     .infoZuInfo{
         width: 400px;
-       /* margin-left: auto; */
         margin-right: auto;
     }
 }
@@ -247,3 +226,20 @@ a:hover{
     transform-origin: left center;
 } */
 /* transform: rotate(180deg); */
+/*
+@media (min-width: 900px ){
+    .navigation li{
+        font-size: 130%;
+    } 
+        .column{
+        font-size: 1.5em;
+        }
+        .text{
+            font-size: 170%;
+        }
+
+        article > h2 {
+        font-size: 160%;
+        }
+        
+} */
