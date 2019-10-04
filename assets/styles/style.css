@@ -105,9 +105,9 @@ h2{
     min-height: 49px;
     /* position: relative; */
     display: flex;
-    justify-content: right;
-    /* transition: all 1.5s ease-in-out; */
+    justify-content: flex-end;
 }
+
 
 .SButtonUl {  /* ul */
     /* display: inline-block; */
@@ -124,13 +124,16 @@ h2{
 }
 
 .hidden{
-   display: none; 
+   display: none;  
 }
 div > button{
     border: none;
 }
 button{
     background: none;
+    padding: 0.5em;
+    border: 1px solid black;
+    border-radius: 50%;
     text-decoration: none; 
 }  
 .symbolS{  /* share */
