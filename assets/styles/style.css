@@ -111,7 +111,7 @@ h2{
 
 .SButtonUl {  /* ul */
     /* display: inline-block; */
-    line-height: 1.5em;
+    line-height: 2.5em;
     text-align: right; 
     padding: 0 0.25em 0;
     font-size: 2em;
@@ -132,14 +132,30 @@ div > button{
 button{
     background: none;
     padding: 0.5em;
+    padding-bottom: 0.25em;
     border: 1px solid black;
     border-radius: 50%;
-    text-decoration: none; 
-}  
+    /* text-decoration: none;  */
+} 
+
 .symbolS{  /* share */
     text-align: right;
     margin-right: 1.5em; 
-}  
+} 
+.symbols_S{
+    width: 1.5em;
+    height: 1.5em;
+} 
+@media (min-width: 700px) {
+    .symbols_S {
+       width: 2em;
+       height: 2em;
+    }
+    .symbolS{
+        width: 2.5em;
+       height: 2.5em;
+    }
+}
 
 .textTitel{
     font-size: 3em; 
