@@ -101,6 +101,10 @@ h2{
     /* font-weight: 600; */
     margin-bottom: 0.25em;
 } 
+.active{
+background: #b8c26f;
+}
+
 .S { /* div */
     min-height: 49px;
     /* position: relative; */
@@ -111,7 +115,7 @@ h2{
 
 .SButtonUl {  /* ul */
     /* display: inline-block; */
-    line-height: 2.5em;
+     /* line-height: 1.5em;  */
     text-align: right; 
     padding: 0 0.25em 0;
     font-size: 2em;
