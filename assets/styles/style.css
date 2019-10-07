@@ -63,8 +63,7 @@ h2{
 .logo {
     font-size: 4em;
     margin-top: 0;
-    margin-bottom: 20px;  /*?*/
-    margin-left: 0em;
+    margin-bottom: 0; 
 }
 .logo a {
     position: relative;
@@ -244,14 +243,59 @@ a{
      text-decoration-color: #b8c26f;
 }
 
- 
-
 a:hover{
     color:darkolivegreen; 
     /* #b8c26f; */  
 }
 
+/*---------------Unterseiten---------------------------*/
 
+.headerUnterseite .logo{
+    font-size: 3em;
+    margin-bottom: 0;
+    margin-left: 0.25em; 
+}
+.headerUnterseite ul{
+    margin: 0.25em;
+}
+
+.headerUnterseite body > header::after{  /**/
+    height: 90%;
+} 
+.mainUnterseite article{
+    margin-right: 0.25em;
+}
+.mainUnterseite .ueberschrift{
+    font-size: 3em;
+}
+.mainUnterseite .tipp{
+    font-size: 1.5em;
+} 
+ .mainUnterseite .tippUeberschrift{
+    font-size: 1.5em;
+}
+.mainUnterseite p{
+   margin-top: 0.5em; 
+}
+.mainUnterseite .titelUtextUbild > p{
+    display: inline-block;
+    vertical-align: top;
+    /* width:90%; */
+    
+}
+.tipp{
+    padding: 0.5em;
+    background: white;
+    /* display: flex;
+    justify-content: flex-end; */
+}
+.tippUeberschrift{
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+.bild{
+margin-left: 0.5em;
+}
 /* .logo-rotated {
     transform: rotate(25deg);
     transform-origin: left center;
