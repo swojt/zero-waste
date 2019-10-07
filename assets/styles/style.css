@@ -7,6 +7,8 @@ html {
     font-size: 0.875em;
     line-height: 1.25;
     font-family: Roboto;
+
+    overflow-y: scroll;
 }
 
 * {
@@ -285,17 +287,45 @@ a:hover{
 }
 .tipp{
     padding: 0.5em;
-    background: white;
+    background:#fff6eb ; /* white*/
     /* display: flex;
-    justify-content: flex-end; */
+    justify-cosntent: flex-end; */
 }
 .tippUeberschrift{
     display: inline-block;
     border-bottom: 1px solid black;
 }
-.bild{
-margin-left: 0.5em;
+.divBild{
+    display: flex;
+    justify-content: center;
 }
+ details:hover{
+    cursor: pointer;
+} 
+ details summary:focus {
+    outline: none;
+} 
+summary{
+    font-size: 1em;
+}
+details summary:hover .summary-chevron-up svg {
+    opacity: 1;
+  }
+details .summary-chevron-up svg {
+  opacity: 0.5;
+} 
+ details .summary-chevron-up,
+details .summary-chevron-down{
+pointer-events: none;
+  /* position: absolute; */
+  top: 0.75em;
+  right: 1em;
+  /* background: #ffffff;  */
+} 
+/* details .summary-chevron-up svg,
+details .summary-chevron-down svg {
+  display: block; */
+
 /* .logo-rotated {
     transform: rotate(25deg);
     transform-origin: left center;
