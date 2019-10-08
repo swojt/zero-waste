@@ -17,9 +17,9 @@ html {
 
 body {
     margin-top: 0px;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-bottom: 10px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 header{
@@ -178,12 +178,17 @@ button{
 article{
     font-size: 2.5em; 
     margin-left: 0.25em;
+    margin-right: 0.25em;
      /* text-decoration-width: 0.5em;  */
 }    
 article a{
     text-decoration: none;
 }
-
+@media(min-width: 800px){
+    .kopf{
+        margin-left: 0.5em;
+    }
+}
 @media(min-width: 1000px){
     .logo{
        width: 200px;
@@ -264,9 +269,7 @@ a:hover{
 .headerUnterseite body > header::after{  /**/
     height: 90%;
 } 
-/* .mainUnterseite article{
-    margin-right: 0.25em;
-} */
+
 .mainUnterseite .ueberschrift{
     font-size: 3em;
 }
@@ -290,11 +293,12 @@ a:hover{
         margin-right: auto;
     }
 }
- .mainUnterseite .tippUeberschrift{
+.mainUnterseite .tippUeberschrift{
     font-size: 1.5em;
 }
 .mainUnterseite p{
-   margin-top: 0.5em; 
+    margin-top: 0.5em;
+    margin-bottom: 0.5em; 
 }
 .mainUnterseite .titelUtextUbild > p{
     display: inline-block;
@@ -320,29 +324,25 @@ a:hover{
         display: inline-block;
     }
 }
-/* @media (min-width: 1000px){
-    .mainUnterseite article{
-        margin-right: auto;
-    }
-} */
 
 
- details:hover{
+details:hover{
     cursor: pointer;
 } 
- details summary:focus {
+details summary:focus {
     outline: none;
 } 
 summary{
     font-size: 1em;
 }
+details .summary-chevron-up svg {
+    opacity: 0.5;
+}
 details summary:hover .summary-chevron-up svg {
     opacity: 1;
-  }
-details .summary-chevron-up svg {
-  opacity: 0.5;
-} 
- details .summary-chevron-up,
+}
+ 
+details .summary-chevron-up,
 details .summary-chevron-down{
 pointer-events: none;
   /* position: absolute; */
