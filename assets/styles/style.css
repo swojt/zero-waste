@@ -315,7 +315,12 @@ a:hover{
 .divBild{
     display: flex;
     justify-content: center;
-}
+}    
+/* .bild{
+    min-width: 100%;
+    height: auto;
+} */
+
 @media (min-width: 700px){
     .titelUtextUbild p {
     width: 76%; 
@@ -323,9 +328,15 @@ a:hover{
     .divBild{
         display: inline-block;
     }
+    /* .bild{
+        width: 150px;
+        height: auto;
+    } */
 }
 
-
+details{
+    position: relative;
+}
 details:hover{
     cursor: pointer;
 } 
@@ -334,6 +345,10 @@ details summary:focus {
 } 
 summary{
     font-size: 1em;
+}
+.summary-title{
+    width: calc(100% - 2em - 24px);
+    display: block;
 }
 details .summary-chevron-up svg {
     opacity: 0.5;
@@ -344,15 +359,16 @@ details summary:hover .summary-chevron-up svg {
  
 details .summary-chevron-up,
 details .summary-chevron-down{
-pointer-events: none;
-  /* position: absolute; */
-  top: 0.75em;
-  right: 1em;
-  /* background: #ffffff;  */
+    pointer-events: none;
+    position: absolute;
+    top: 0.75em;
+    right: 1em;
+    background-color: #fff6eb;
 } 
-/* details .summary-chevron-up svg,
+details .summary-chevron-up svg,
 details .summary-chevron-down svg {
-  display: block; */
+  display: block;
+} 
 
 
 
