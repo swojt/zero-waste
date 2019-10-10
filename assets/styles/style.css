@@ -103,7 +103,7 @@ h2{
     margin-bottom: 0.25em;
 } 
 .active{
-background: #b8c26f;
+    background: #b8c26f;
 }
 
 .S { /* div */
@@ -206,7 +206,92 @@ article a{
         margin-right: auto; 
     }
 }
+.utH,.utH1,.utH2,.utH3,.utH4,.utH5{
+    position: relative;
+}
+ .utH ::after{
+    position: absolute;
+    top: -15px;
+    left: -31px;
+    content: '';
+    display: inline-block; 
+    width: 100%;
+    height: 150%;
+    opacity: 0.5;
+    z-index: -1;
+    background-repeat: no-repeat; 
+    background-image: url("../images/zeroWaste güner Strich 3-05.svg");
+} 
 
+/* .utH1 ::after{
+    position: absolute;
+    top: -15px;
+    left: -22.5px;
+    content: '';
+    display: inline-block; 
+    width: 100%;
+    height: 130%;
+    opacity: 0.5;
+    z-index: -1;
+    background-repeat: no-repeat; 
+    background-image: url("../images/zeroWaste güner Strich 1-03.svg");
+}
+.utH2 ::after{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    content: '';
+    display: inline-block; 
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+    background-repeat: no-repeat; 
+    background-image: url("../images/zeroWaste güner Strich 3-05.svg");
+}
+.utH3 ::after{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    content: '';
+    display: inline-block; 
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+    background-repeat: no-repeat; 
+    background-image: url("../images/zeroWaste güner Strich 4-06.svg");
+}
+.utH4 ::after{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    content: '';
+    display: inline-block; 
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+    background-repeat: no-repeat; 
+    background-image: url("../images/zeroWaste güner Strich 5-07.svg");
+}
+.utH5 ::after{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    content: '';
+    display: inline-block; 
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+    background-repeat: no-repeat; 
+    background-image: url("../images/zeroWaste güner Strich 6-08.svg");
+} */
+
+.utH{
+    margin-left: 0.25em;
+}
 .infoZuUt{
     font-size: 0.5em;
     margin-top: 0.5em;
@@ -273,6 +358,24 @@ a:hover{
 .mainUnterseite .ueberschrift{
     font-size: 3em;
 }
+.ueberschriftH{
+    position: relative;
+    padding-left: 0.5em;
+}
+.ueberschriftH::after{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    content: '';
+    display: inline-block; 
+    width: 100%;
+    height: 130%;
+    opacity: 0.4;
+    z-index: -1;
+    background-repeat: no-repeat; 
+    background-image: url("../images/zeroWaste güner Strich 6-08.svg");
+}
+
 .mainUnterseite .tipp{
     font-size: 1.5em;
 } 
