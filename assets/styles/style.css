@@ -481,6 +481,11 @@ details .summary-chevron-down svg {
     display: flex;
     justify-content: flex-end;
 } */
+
+.luecke{
+    display: inline-block;
+    width: 1%;
+}
 .UTweiterleitung{
     margin-bottom: 2em;
     margin-left: 0.25em;
@@ -498,7 +503,7 @@ details .summary-chevron-down svg {
     }
 .folgendes .w{ 
     text-align: right;
-    margin-right: 0.5em;
+    /* margin-right: 0.5em; */
 }
 .w{
     font-size: 2em;
@@ -509,12 +514,12 @@ details .summary-chevron-down svg {
     }
 } */
 @media(min-width:700px){
-    .folgendes .w{ 
+    /* .folgendes .w{ 
         
     }
     .folgendes{
         margin-left: 0.75em;
-    }
+    } */
     .w{
         font-size: 2em;
     }
