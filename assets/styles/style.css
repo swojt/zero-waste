@@ -81,6 +81,23 @@ h2{
     background-color:#b8c26f;
  }
 
+ /* .logoBild{
+
+ } */
+ .logoBildDiv{
+    display: inline-block;
+ }
+ /* .logo{
+    display: inline-block;
+    vertical-align: top;
+ } */
+ .navigation{
+    display: inline-block;
+  /*  vertical-align: center;*/
+    vertical-align: top;
+    margin-top: 5em; 
+ }
+
 .navigation li, footer {
     border-style: solid;
     border-width: 1.25px;
