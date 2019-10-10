@@ -355,6 +355,10 @@ a:hover{
     height: 90%;
 } 
 
+.mainUnterseite section{
+    margin-bottom: 1em;
+}
+
 .mainUnterseite .ueberschrift{
     font-size: 3em;
 }
@@ -473,11 +477,49 @@ details .summary-chevron-down svg {
   display: block;
 } 
 
-.wArticle{
+/* .UTweiterleitung {
+    display: flex;
+    justify-content: flex-end;
+} */
+.UTweiterleitung{
+    margin-bottom: 2em;
+    margin-left: 0.25em;
+}
+.vorheriges, .folgendes{
     background-color: #fff6eb;
 }
+.vorheriges, .folgendes{
+    display: inline-block;
+    width: 49%;
+}
+
+.vorheriges .w{
+        margin-left: 0.5em;  
+    }
+.folgendes .w{ 
+    text-align: right;
+    margin-right: 0.5em;
+}
 .w{
-    font-size: 0.5 em;
+    font-size: 2em;
+}
+/* @media(max-width:345px){
+    .w{
+        font-size: 0.5em;
+    }
+} */
+@media(min-width:700px){
+    .folgendes .w{ 
+        
+    }
+    .folgendes{
+        margin-left: 0.75em;
+    }
+    .w{
+        font-size: 2em;
+    }
+}
+@media (min-width: 1000px){
 
 }
 
