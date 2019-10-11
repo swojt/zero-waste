@@ -1,6 +1,6 @@
 
-var shareButton = document.querySelector(".S");
-// var shareArea = document.querySelector(");symbolS
+var shareButton = document.querySelector(".symbolS");
+// var shareArea = document.querySelector(").S;
 function showShareB(){
     var shareBList = document.querySelector(".SButtonUl");
     shareBList.classList.remove("hidden");
