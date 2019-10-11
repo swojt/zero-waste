@@ -362,17 +362,42 @@ a:hover{
 
 /*---------------Unterseiten---------------------------*/
 
-.headerUnterseite .logo{
+/* .headerUnterseite .logo{
     font-size: 3em;
     margin-bottom: 0;
     margin-left: 0.25em; 
+} */
+/* .headerUnterseite .headerKopf{
+
+} */
+
+/* @media(min-width: 700px){
+    /* .headerKopf{
+        display: flex; 
+        align-items: baseline;
+    } 
+    /* .headerUnterseite .logoBildDiv{ 
+        display: inline-block;
+        vertical-align: bottom;
+    } */ 
+
+@media(min-width: 1000px){
+    .headerKopf{
+        display: block;
+    }
 }
+.headerUnterseite .logoBild{
+    width: 75px;
+    height: 75px;
+}
+
+
 .headerUnterseite ul{
     margin: 0.25em;
 }
 
-.headerUnterseite body > header::after{  /**/
-    height: 90%;
+.headerUnterseite > header::after{  /**/
+    height: 190%;
 } 
 
 .mainUnterseite section{
