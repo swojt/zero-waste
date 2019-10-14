@@ -419,42 +419,34 @@ a:hover{
         height: auto;
     } */
 }
-
-details{
-    position: relative;
-}
-details:hover{
-    cursor: pointer;
-} 
-details summary:focus {
-    outline: none;
-} 
-summary{
+summary {
     font-size: 1em;
+    list-style: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+summary::-webkit-details-marker {
+    display: none;
+}
+summary::after {
+    content:'';
+    width: 24px;
+    height: 24px;
+    margin-left: auto;
+    background-image: url("../images/icons/chevron-up.svg");
+    background-repeat: no-repeat;
+}
+details[open] summary::after {
+    transform: rotate(180deg); /* scale */
 }
 .summary-title{
     width: calc(100% - 2em - 24px);
     display: block;
 }
-details .summary-chevron-up svg {
-    opacity: 0.5;
-}
-details summary:hover .summary-chevron-up svg {
-    opacity: 1;
-}
- 
-details .summary-chevron-up,
-details .summary-chevron-down{
-    pointer-events: none;
-    position: absolute;
-    top: 0.75em;
-    right: 1em;
-    background-color: #fff6eb;
-} 
-details .summary-chevron-up svg,
-details .summary-chevron-down svg {
-  display: block;
-} 
+ details summary:focus {
+    outline: none;
+}  
 
  .UTweiterleitung {
     display: flex;
