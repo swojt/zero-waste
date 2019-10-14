@@ -1,4 +1,4 @@
- <!DOCTYPE html>  
+<!DOCTYPE html>  
 <html lang="de">
 
 <head>
@@ -16,20 +16,109 @@
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
+        <style>
+            summary {
+                list-style: none;
+                position: relative;
+                display: inline;
+            }
+
+            summary::-webkit-details-marker {
+                display: none;
+            }
+        
+            summary::after{
+                content:'';
+                top: 0em;
+                left:  7em;
+                position: absolute;
+                display: flex;
+                align-items: baseline;
+                width: 100%;
+                height: 100%;
+                background-image: url("../assets/images/icons/arrow-button-down-3.svg");
+                background-repeat: no-repeat;
+            }
+
+        </style>
 </head>
 
 <body>
-    <article>
-        <h1>Informationen</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nihil non repellat dolorum ad natus quas soluta quisquam consectetur quibusdam enim, doloribus nemo temporibus, deleniti eius molestiae dolorem vitae eos?
-        </p>
-    </article>
-    <article>
-        <h1>Informationen</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nihil non repellat dolorum ad natus quas soluta quisquam consectetur quibusdam enim, doloribus nemo temporibus, deleniti eius molestiae dolorem vitae eos?
-        </p>
-    </article>
+    <header class="headerUnterseite" >
+        <div class="headerKopf">
+            <div class="logoBildDiv">
+                <img class="logoBild" src="./assets/images/zeroWaste_logo_final.svg" width="100" height="100" alt="zero-wastelogo"/>
+            </div>
+            <!-- <h1 class="logo">
+                <a href="/index.html">
+                    zero waste
+                </a>
+            </h1> -->
+            <nav class="navigation"> <!-- class="active" -->
+                <ul>
+                    <li >
+                        <a href="/index.html" title="Stareite">
+                            <img src="./assets/images/icons/house-chimney-2.svg" width="24" height="24" alt="Symbol eines Hauses"/>
+                        </a>
+                    </li>
+                    <li> <a href="./zero-w-info.html"> zero waste </a> </li>
+                    <li> <a href="./refuse.html">Refuse</a> </li>
+                    <li> <a href="./reduse.html">Reduse</a> </li>
+                    <li> <a href="./reuse.html">Reuse</a> </li>
+                    <li> <a href="./recycle.html">Recycle</a> </li>
+                    <li> <a href="./rethink.html">Rethink</a> </li>
+                    <li> <a href="./quellen.html">Quellen</a> </li>
+                </ul>
+            </nav class="">  
+        </div>
+            <div class="S" >          
+                <ul class="SButtonUl hidden" > <!-- -->
+                    <li> 
+                        <button> 
+                            <img class="symbols_S" src="./assets/images/icons/email-action-unread.svg" width="24" height="24" alt="Email-Symbol" /> 
+                        </button>
+                    </li>
+                    <li> 
+                        <button> 
+                            <img class="symbols_S" src="./assets/images/icons/messaging-whatsapp.svg" width="24" height="24" alt="Whatsapp-Symbol" /> 
+                        </button>
+                    </li>
+                    <li> 
+                        <button> 
+                            <img class="symbols_S" src="./assets/images/icons/social-media-facebook-1.svg" width="24" height="24" alt="Facebook-Symbol" /> 
+                        </button>
+                    </li>
+                    <li> 
+                        <button> 
+                            <img class="symbols_S" src="./assets/images/icons/social-media-twitter.svg" width="24" height="24" alt="Twitter-Symbol" /> 
+                        </button>
+                    </li>
+                    <li> 
+                        <button> 
+                            <img class="symbols_S" src="./assets/images/icons/feed-tumblr.svg" width="24" height="24" alt="Tumblr-Symbol" /> 
+                        </button>
+                    </li>
+                    <li> 
+                        <button> 
+                            <img class="symbols_S" src="./assets/images/icons/social-pinterest.svg" width="24" height="24" alt="Pinterest-Symbol" /> 
+                        </button>
+                    </li>
+                </ul>
+                <button>
+                    <img class="symbolS" src="./assets/images/icons/share.svg" width="24" height="24" alt="Share-Symbol"/>
+                </button>          
+            </div>
+        </header>
+
+    <main>   
+        <details open>
+            <summary>
+                Informationen
+            </summary>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nihil non repellat dolorum ad natus quas soluta quisquam consectetur quibusdam enim, doloribus nemo temporibus, deleniti eius molestiae dolorem vitae eos?
+            </p>
+        </details>
+    </main> 
 </body>
 </html>

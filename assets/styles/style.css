@@ -243,72 +243,6 @@ article a{
     background-image: url("../images/zeroWaste güner Strich 3-05.svg");
 } 
 
-/* .utH1 ::after{
-    position: absolute;
-    top: -15px;
-    left: -22.5px;
-    content: '';
-    display: inline-block; 
-    width: 100%;
-    height: 130%;
-    opacity: 0.5;
-    z-index: -1;
-    background-repeat: no-repeat; 
-    background-image: url("../images/zeroWaste güner Strich 1-03.svg");
-}
-.utH2 ::after{
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    content: '';
-    display: inline-block; 
-    width: 100%;
-    height: 100%;
-    opacity: 0.5;
-    z-index: -1;
-    background-repeat: no-repeat; 
-    background-image: url("../images/zeroWaste güner Strich 3-05.svg");
-}
-.utH3 ::after{
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    content: '';
-    display: inline-block; 
-    width: 100%;
-    height: 100%;
-    opacity: 0.5;
-    z-index: -1;
-    background-repeat: no-repeat; 
-    background-image: url("../images/zeroWaste güner Strich 4-06.svg");
-}
-.utH4 ::after{
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    content: '';
-    display: inline-block; 
-    width: 100%;
-    height: 100%;
-    opacity: 0.5;
-    z-index: -1;
-    background-repeat: no-repeat; 
-    background-image: url("../images/zeroWaste güner Strich 5-07.svg");
-}
-.utH5 ::after{
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    content: '';
-    display: inline-block; 
-    width: 100%;
-    height: 100%;
-    opacity: 0.5;
-    z-index: -1;
-    background-repeat: no-repeat; 
-    background-image: url("../images/zeroWaste güner Strich 6-08.svg");
-} */
-
 .utH{
     margin-left: 0.25em;
 }
@@ -397,7 +331,7 @@ a:hover{
 }
 
 .headerUnterseite > header::after{  /**/
-    height: 190%;
+    height: 90%;
 } 
 
 .mainUnterseite section{
@@ -522,23 +456,18 @@ details .summary-chevron-down svg {
   display: block;
 } 
 
-/* .UTweiterleitung {
+ .UTweiterleitung {
     display: flex;
-    justify-content: flex-end;
-} */
-
-/* .luecke{
-    display: inline-block;
-    width: 0%;
-} */
-.UTweiterleitung {
+    align-items: flex-end;
     margin-bottom: 2em;
-    margin-left: 0.25em;
-}
-/* .UTweiterleitung .folgendes{
-    display: flex;
-    justify-content: flex-end;
-} */
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+} 
+
+ .luecke{
+    display: inline-block;
+    width: 1%;
+} 
 
 .UTweiterleitung a{
     text-decoration: none;
@@ -548,30 +477,37 @@ details .summary-chevron-down svg {
 }
 .vorheriges, .folgendes{
     display: inline-block;
-    width: 49%;
+    width: 49.5%;
 }
-/* .folgendes{
-        margin-left: 0.5em;
-    }  */
+
 .vorheriges .w{
     margin-left: 0.5em;  
 }
 .folgendes .w{ 
     text-align: right;
-    padding-right: 0.5em; 
+    margin-right: 0.5em; 
 }
-.w{
+/* .w{
     font-size: 2em;
-}
+} */
 /* @media(max-width:345px){
     .w{
         font-size: 0.5em;
     }
 } */
-@media(min-width:700px){
-    
+@media(min-width: 100px){
     .w{
-        font-size: 2em;
+        font-size: 1em;
+    }
+} 
+@media(min-width:280px){
+    .w{
+        font-size: 1.5em;
+    }
+}
+ @media(min-width:700px){
+    .w{
+        font-size: 1.75em;
     }
 }
 @media (min-width: 1000px){
@@ -580,8 +516,6 @@ details .summary-chevron-down svg {
         margin-left: auto;
         margin-right: auto; 
     }
-
-    
 }
 
 
