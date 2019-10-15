@@ -27,7 +27,7 @@ body {
     min-height: 100vh;
 }
 
-.page > .mainUnterseite {
+.page > .mainUnterseite{
     flex-grow: 1;
 } 
 
