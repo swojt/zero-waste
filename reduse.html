@@ -1,9 +1,9 @@
 <!DOCTYPE html>  
 <html lang="de">
-
 <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--wichtiges metaelement-->
         <title>Zero Waste</title>
         <meta name="description" content="Beschreibung der Seite" />
         <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Roboto:300,400,500&display=swap" rel="stylesheet"> 
@@ -17,15 +17,19 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
 </head>
-
 <body>
     <header class="headerUnterseite" >
-        <h1 class="logo">
+    <div class="headerKopf">
+        <div class="logoBildDiv">
+            <a href="/index.html">
+                <img class="logoBild" src="./assets/images/zeroWaste_logo_final.svg" width="100" height="100" alt="zero-wastelogo"/> 
+            </a>
+        </div>
+        <!-- <h1 class="logo">
                 <a href="/index.html">
                     zero waste
                 </a>
-            </h1>
-            
+            </h1> -->
             <nav class="navigation">
                 <ul>
                     <li >
@@ -41,9 +45,10 @@
                     <li> <a href="./rethink.html">Rethink</a> </li>
                     <li> <a href="./quellen.html">Quellen</a> </li>
                 </ul>
-            </nav class="">  
+            </nav>  
+        </div>
             <div class="S" >          
-                <ul class="SButtonUl hidden" > <!-- -->
+                <ul class="SButtonUl hidden" > 
                     <li> 
                         <button> 
                             <img class="symbols_S" src="./assets/images/icons/email-action-unread.svg" width="24" height="24" alt="Email-Symbol" /> 
@@ -95,7 +100,6 @@
                         labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
                         rebum. Stet clita
                         kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-                    
                     </p> 
                 
                 </div>      
@@ -133,12 +137,6 @@
                 <details>
                     <summary class="sumText">
                         <span class="summary-title">Anleitung: Wie klebe ich einen Sticker an meinen Biefkasten</span>
-                        <div class="summary-chevron-up">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down">
-                                <polyline points="6 9 12 15 18 9">
-                                </polyline>
-                            </svg>
-                        </div>
                         
                     </summary>
                     <p class="summary-content">
@@ -146,53 +144,58 @@
                         2. Schutzpapier entfernen <br>
                         3. Sticker aufleben <br>
                     </p>
-                    <div class="summary-chevron-down">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up">
-                                <polyline points="18 15 12 9 6 15">
-                                </polyline>
-                            </svg>
-                        </div>	
                 </details>
             </article>
         </section>
         <div class="UTweiterleitung">
-                <div class="vorheriges">
-                    <p class="w">
-                        <a href="./rethink.html">RETHINK</a> 
-                    </p>               
-                </div>
-                <p class="luecke">
-                </p> 
-                <div class="folgendes">
-                    <p class="w">
-                        <a href="./reduse.html">REDUCE</a>
-                    </p>
-                </div>
+            <div class="vorheriges">
+                <p class="w">
+                    <a href="./refuse.html"> REFUSE</a> 
+                </p>               
             </div>
+            <p class="luecke">
+            </p> 
+            <div class="folgendes">
+                <p class="w">
+                    <a href="./reuse.html">REUSE </a>
+                </p>
+            </div>
+        </div>
     </main>
     <footer class="footerUnterseite">
-                <div class="column"> 
-                    <h3> 
-                        Mehr Interesse? 
-                    </h3>
-                    <p class="infoZuInfo">
-                        Schön, dass du noch mehr Interesse an dem Thema zero waste hast. Hier findest du
-                        <a href="./informationen.html">  
-                            andere spannende Artikel und Personen,
-                        </a>
-                         die sich mit dem Thema auskennen.
-                    </p>
-                </div><!--
-                --><div class="column">
-                    <h3>
-                        Kontakt: 
-                    </h3> 
-                    <p class="Email">
-                        <a href="mailto:zero.waste.mitteilung@gmail.com">zero.waste.mitteilung@gmail.com</a>
-                    </p>
-                </div>
-                    
+            <div class="column"> 
+                <h3> 
+                    Mehr Interesse? 
+                </h3>
+                <p class="infoZuInfo">
+                    Schön, dass du noch mehr Interesse an dem Thema zero waste hast. Hier findest du
+                    <a href="./informationen.html">  
+                        andere spannende Artikel und Personen,
+                    </a>
+                     die sich mit dem Thema auskennen.
+                </p>
+            </div><!--
+            --><div class="column">
+                <h3>
+                    Kontakt: 
+                </h3> 
+                <p class="Email">
+                    <a href="mailto:zero.waste.mitteilung@gmail.com">zero.waste.mitteilung@gmail.com</a>
+                </p>
+            </div>
     </footer>
     <script src="./assets/scripts/main.js"></script>
 </body>
 </html>
+<!--<details>
+                        <summary class="text">REFUSE</summary>
+                            <p>
+                                Refuse bedeutet Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                                eirmod tempor invidunt ut 
+                                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                                rebum. Stet clita 
+                            </p>
+                    </details> -->
+
+
+        
