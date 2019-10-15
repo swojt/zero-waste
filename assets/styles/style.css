@@ -544,6 +544,14 @@ details[open] summary::after {
     text-decoration-color: #b8c26f; 
 }
 
+@media(min-width: 700px){
+    .mainImpressum, .mainDatenschutz{
+        display: block;
+        width: 700px;
+        margin-left: auto;
+        margin-right:auto; 
+    }
+}
 /* .logo-rotated {
     transform: rotate(25deg);
     transform-origin: left center;
