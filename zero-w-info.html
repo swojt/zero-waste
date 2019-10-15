@@ -8,7 +8,7 @@
         <meta name="description" content="Beschreibung der Seite" />
         <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Roboto:300,400,500&display=swap" rel="stylesheet"> 
         <link href="./assets/styles/style.css" rel="stylesheet">
-        
+
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -20,12 +20,17 @@
 
 <body>
     <header class="headerUnterseite" >
-        <h1 class="logo">
+    <div class="headerKopf">
+        <div class="logoBildDiv">
+            <a href="/index.html">
+                <img class="logoBild" src="./assets/images/zeroWaste_logo_final.svg" width="100" height="100" alt="zero-wastelogo"/> 
+            </a>
+        </div>
+        <!-- <h1 class="logo">
                 <a href="/index.html">
                     zero waste
                 </a>
-            </h1>
-            
+            </h1> -->
             <nav class="navigation">
                 <ul>
                     <li >
@@ -35,15 +40,16 @@
                     </li>
                     <li class="active"> <a href="./zero-w-info.html"> zero waste </a> </li>
                     <li> <a href="./refuse.html">Refuse</a> </li>
-                    <li > <a href="./reduse.html">Reduse</a> </li>
+                    <li> <a href="./reduse.html">Reduse</a> </li>
                     <li> <a href="./reuse.html">Reuse</a> </li>
                     <li> <a href="./recycle.html">Recycle</a> </li>
                     <li> <a href="./rethink.html">Rethink</a> </li>
                     <li> <a href="./quellen.html">Quellen</a> </li>
                 </ul>
-            </nav class="">  
+            </nav>  
+        </div>
             <div class="S" >          
-                <ul class="SButtonUl hidden" > <!-- -->
+                <ul class="SButtonUl hidden" > 
                     <li> 
                         <button> 
                             <img class="symbols_S" src="./assets/images/icons/email-action-unread.svg" width="24" height="24" alt="Email-Symbol" /> 
@@ -80,3 +86,47 @@
                 </button>          
             </div>
     </header>
+    <main class="mainUnterseite">
+        <section>
+            <!-- <div class="kopf"> für margin-left -->
+                <header class="ueberschrift">
+                    <h2 class="ueberschriftQ">
+                        WAS IST ZERO WASTE?
+                    </h2>
+                </header>
+                <article class="tipp titelUtext">
+                    <p class="textZW">
+                        Refuse bedeutet Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                        eirmod tempor invidunt ut 
+                        labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                    </p> 
+                </article>
+        </section> 
+
+    </main>
+    <footer class="footerUnterseite">
+            <div class="column"> 
+                <h3> 
+                    Mehr Interesse? 
+                </h3>
+                <p class="infoZuInfo">
+                    Schön, dass du noch mehr Interesse an dem Thema zero waste hast. Hier findest du
+                    <a href="./informationen.html">  
+                        andere spannende Artikel und Personen,
+                    </a>
+                        die sich mit dem Thema auskennen.
+                </p>
+            </div><!--
+            --><div class="column">
+                <h3>
+                    Kontakt: 
+                </h3> 
+                <p class="Email">
+                    <a href="mailto:zero.waste.mitteilung@gmail.com">zero.waste.mitteilung@gmail.com</a>
+                </p>
+            </div>
+    </footer>
+    <script src="./assets/scripts/main.js"></script>
+</body>
+</html>
+</html>

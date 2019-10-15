@@ -535,9 +535,14 @@ details[open] summary::after {
     }
 }
 
+.mainUnterseite .ueberschriftQ{
+    font-size: 1em;
+}
 
-
-
+.mainUnterseite .emailL{
+    text-decoration: underline;
+    text-decoration-color: #b8c26f; 
+}
 
 /* .logo-rotated {
     transform: rotate(25deg);
