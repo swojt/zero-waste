@@ -269,25 +269,6 @@ a:hover{
 
 /*---------------Unterseiten---------------------------*/
 
-/* .headerUnterseite .logo{
-    font-size: 3em;
-    margin-bottom: 0;
-    margin-left: 0.25em; 
-} */
-/* .headerUnterseite .headerKopf{
-
-} */
-
-/* @media(min-width: 700px){
-    /* .headerKopf{
-        display: flex; 
-        align-items: baseline;
-    } 
-    /* .headerUnterseite .logoBildDiv{ 
-        display: inline-block;
-        vertical-align: bottom;
-    } */ 
-
 @media(min-width: 1000px){
     .headerKopf{
         display: block;
@@ -298,14 +279,9 @@ a:hover{
     height: 75px;
 }
 
-
 .headerUnterseite ul{
     margin: 0.25em;
 }
-
-.headerUnterseite > header::after{  /**/
-    height: 90%;
-} 
 
 .mainUnterseite section{
     margin-bottom: 1em;
@@ -535,15 +511,15 @@ details[open] summary::after {
     .navigation li{
         font-size: 130%;
     } 
-        .column{
-        font-size: 1.5em;
-        }
-        .text{
-            font-size: 170%;
-        }
+    .column{
+    font-size: 1.5em;
+    }
+    .text{
+        font-size: 170%;
+    }
 
-        article > h2 {
-        font-size: 160%;
-        }
+    article > h2 {
+    font-size: 160%;
+    }
         
 } */
