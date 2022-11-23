@@ -9,6 +9,6 @@
   "author": "Sophia Wojt <s.wojt@hks-agentur.de>",
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.26.7"
+    "browser-sync": "^2.27.10"
   }
 }
